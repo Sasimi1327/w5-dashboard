@@ -115,6 +115,10 @@ body {
   background-color: #198754;
 }
 
+.page-link {
+  border-color: #198754;
+}
+
 .icon-140 {
   width: 140px;
   height: 140px;
