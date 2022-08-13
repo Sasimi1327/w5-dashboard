@@ -1,0 +1,34 @@
+
+.plnum {
+  &:hover{
+    background-color: #198754;
+  }
+  &.active {
+    color: #fff;
+    background-color: #198754;
+  }
+}
+.icon-140 {
+  width: 140px;
+  height: 140px;
+}
+
+.text-verified {
+  color: #CDDDCD;
+}
+.border-verified {
+  background: #CDDDCD;
+}
+
+.expand_more {
+  display: none;
+}
+.expand_less {
+  display: inline-block;
+}
+.collapsed .expand_more {
+  display: inline-block;
+}
+.collapsed .expand_less {
+  display: none;
+}

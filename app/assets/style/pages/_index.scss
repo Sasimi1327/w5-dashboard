@@ -1,0 +1,47 @@
+$light: #f8f9fa;
+$secondary: #CED4DA;
+$dark: #212529;
+
+.icon-24 {
+  width: 24px;
+  height: 24px;
+}
+.mb-6px {
+  margin-bottom: 6px;
+}
+.fs-14px {
+  font-size: 14px;
+}
+
+.category {
+  .list-group-item {
+    padding: 12px;
+    font-weight: normal;
+    &.active {
+      z-index: 2;
+      background-color: $light;
+      color: $dark ;
+      outline: 1px solid $secondary;
+      border: none;
+    }
+  }
+  
+}
+.headshot {
+  width: 40px;
+  height: 40px;
+}
+
+#myCollapse {
+  height: 300px;
+  border: 1px solid #CED4DA;
+  position: relative;
+  .collapseToolbar {
+    background: #F8F9FA;
+  }
+  .btnGrp {
+    position: absolute;
+    bottom: 16px;
+    right: 32px;
+  }
+}
