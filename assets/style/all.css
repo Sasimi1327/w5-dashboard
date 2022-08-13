@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto+Mono&display=swap");
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s;
+}
+
+a:hover {
+  -webkit-transform: scale(1.03);
+      -ms-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+body {
+  font-family: "Lato", "Roboto Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.sidePanels {
+  width: 320px;
+}
+
+.sidePanels .logo {
+  background-image: url("./../images/logo-ANSWER.svg");
+  width: 150px;
+  height: 40px;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+  display: block;
+}
+
+.sidePanels .nav-link.active {
+  color: #198754;
+  border-left: 4px solid #198754;
+}
+
+.sidePanels .nav-link:hover {
+  color: #198754;
+}
+
+.sidePanels .headshot {
+  width: 40px;
+  height: 40px;
+}
+
+.icon-24 {
+  width: 24px;
+  height: 24px;
+}
+
+.mb-6px {
+  margin-bottom: 6px;
+}
+
+.fs-14px {
+  font-size: 14px;
+}
+
+.category .list-group-item {
+  padding: 12px;
+  font-weight: normal;
+}
+
+.category .list-group-item.active {
+  z-index: 2;
+  background-color: #f8f9fa;
+  color: #212529;
+  outline: 1px solid #CED4DA;
+  border: none;
+}
+
+.headshot {
+  width: 40px;
+  height: 40px;
+}
+
+#myCollapse {
+  height: 300px;
+  border: 1px solid #CED4DA;
+  position: relative;
+}
+
+#myCollapse .collapseToolbar {
+  background: #F8F9FA;
+}
+
+#myCollapse .btnGrp {
+  position: absolute;
+  bottom: 16px;
+  right: 32px;
+}
+
+.plnum:hover {
+  background-color: #198754;
+}
+
+.plnum.active {
+  color: #fff;
+  background-color: #198754;
+}
+
+.icon-140 {
+  width: 140px;
+  height: 140px;
+}
+
+.text-verified {
+  color: #CDDDCD;
+}
+
+.border-verified {
+  background: #CDDDCD;
+}
+
+.expand_more {
+  display: none;
+}
+
+.expand_less {
+  display: inline-block;
+}
+
+.collapsed .expand_more {
+  display: inline-block;
+}
+
+.collapsed .expand_less {
+  display: none;
+}
+
+/*# sourceMappingURL=all.css.map */
