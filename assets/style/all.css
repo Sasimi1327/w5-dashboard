@@ -106,6 +106,10 @@ body {
   right: 32px;
 }
 
+.dropdown-toggle::after {
+  border: none;
+}
+
 .linkVisual:hover, .linkEdit:hover {
   color: #198754;
 }
