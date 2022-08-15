@@ -45,3 +45,7 @@ $dark: #212529;
     right: 32px;
   }
 }
+
+.dropdown-toggle::after {
+  border: none;
+}

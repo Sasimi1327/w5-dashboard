@@ -10,12 +10,19 @@ current: index
     <nav class="d-flex align-items-center justify-content-between py-8 bg-light mb-3">
       <div class="fw-bold d-flex align-items-center">
         <h2 class="fs-4 me-12 lh-base d-inline-block my-0">Assignment</h2>
+        
         <div class="dropdown">
-          <a href="#">
+          <a class="dropdown-toggle" role="button" id="dropdownMenu1" data-bs-toggle="dropdown">
             <span class="text-dark align-middle">All Courses</span>
             <span class="material-icons align-middle">expand_more</span>
           </a>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <li><a class="dropdown-item" href="#">切版直播班</a></li>
+            <li><a class="dropdown-item" href="#">JS直播班</a></li>
+            <li><a class="dropdown-item" href="#">Vue直播班</a></li>
+          </ul>
         </div>
+
       </div>
 
       <ul class="nav list-unstyled d-flex align-items-center">
@@ -30,10 +37,18 @@ current: index
 
     <div class="row">
       <div class="col-4">
-        <a class="mb-6px" href="#">
-          <span class="text-dark align-middle">All (4)</span>
-          <span class="material-icons align-middle">expand_more</span>
-        </a>
+
+        <div class="dropdown mb-6px">
+          <a class="dropdown-toggle" role="button" id="dropdownMenu1" data-bs-toggle="dropdown">
+            <span class="text-dark align-middle">All (4)</span>
+            <span class="material-icons align-middle">expand_more</span>
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+            <li><a class="dropdown-item" href="#">Chapter Assignment 1</a></li>
+            <li><a class="dropdown-item" href="#">Chapter Assignment 2</a></li>
+            <li><a class="dropdown-item" href="#">Final Assignment</a></li>
+          </ul>
+        </div>
 
         <div class="category list-group" id="myList" role="tablist">
           <a class="list-group-item list-group-item-action active" data-bs-toggle="list" href="#msg1" role="tab">
