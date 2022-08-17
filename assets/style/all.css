@@ -32,15 +32,15 @@ body {
 }
 
 .content {
-  width: calc( 100% - 23%);
+  width: calc( 100% - 20%);
   position: absolute;
   top: 0;
-  left: 25%;
+  left: 20%;
   height: auto;
 }
 
 .sidePanels {
-  width: 25%;
+  width: 23%;
   position: fixed;
   top: 0;
   left: 0;
