@@ -110,6 +110,14 @@ body {
   border: none;
 }
 
+.dot {
+  list-style-type: disc;
+}
+
+.page-link {
+  border: none;
+}
+
 .linkVisual:hover, .linkEdit:hover {
   color: #198754;
 }
