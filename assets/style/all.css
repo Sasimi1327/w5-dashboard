@@ -31,8 +31,20 @@ body {
   font-size: 16px;
 }
 
+.content {
+  width: calc( 100% - 23% - 10px);
+  position: absolute;
+  top: 0;
+  left: 25%;
+  height: auto;
+}
+
 .sidePanels {
-  width: 320px;
+  width: 23%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
 }
 
 .sidePanels .logo {
