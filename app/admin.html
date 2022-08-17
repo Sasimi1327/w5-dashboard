@@ -180,47 +180,56 @@ current: admin
             <section>
               <h5 class="mt-6 pt-6 border-top">Verification</h5>
               <div class="d-flex justify-content-between align-items-center">
-                <div class="align-middle"><span class="material-icons align-middle me-2">check_circle</span>Verified</div>
+                <!-- 圖案是綠色的 -->
+                <div class="align-middle"><span class="material-icons align-middle me-2 text-primary">check_circle</span>Verified</div>
                 <time class="fw-normal fs-14px">2020/4/12</time>
               </div>
               <a role="button" href="#" class="btn w-100 text-secondary border-secondary mt-4 py-4" disabled>Send Verification Mail</a>
             </section>
             <section>
               <h5 class="mt-6 pt-6 border-top">Access Level</h5>
-              <button type="button" class="btn btn-warning w-100 border-dark p-4 d-flex justify-content-between align-items-center">
+              <!-- Access Level 下方可以使用 select 來做 -->
+                <select class="form-select p-3 border-dark">
+                  <option class="text-info">Admin</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              <!-- <button type="button" class="btn btn-warning w-100 border-dark p-4 d-flex justify-content-between align-items-center">
                     <h6>Admin</h6>
                     <span class="material-icons">expand_more</span>
-              </button>
+              </button> -->
             </section>
             <section>
               <h5 class="mt-6 pt-6 border-top">Custom Access</h5>
+              <!-- 下方 label input 因為 for id 與 New Admin 相同導致對應失效，可以換個名稱 -->
               <div class="form-check mt-4">
-                <input class="form-check-input" type="checkbox" value="1" id="defaultCheck1">
-                <label class="form-check-label fw-normal" for="defaultCheck1">
+                <input class="form-check-input" type="checkbox" value="1" id="editCheck1">
+                <label class="form-check-label fw-normal" for="editCheck1">
                   Lecture
                 </label>
               </div>
               <div class="form-check mt-4">
-                <input class="form-check-input" type="checkbox" value="2" id="defaultCheck2">
-                <label class="form-check-label fw-normal" for="defaultCheck2">
+                <input class="form-check-input" type="checkbox" value="2" id="editCheck2">
+                <label class="form-check-label fw-normal" for="editCheck2">
                   Coupon
                 </label>
               </div>
               <div class="form-check mt-4">
-                <input class="form-check-input" type="checkbox" value="3" id="defaultCheck3">
-                <label class="form-check-label fw-normal" for="defaultCheck3">
+                <input class="form-check-input" type="checkbox" value="3" id="editCheck3">
+                <label class="form-check-label fw-normal" for="editCheck3">
                   Message
                 </label>
               </div>
               <div class="form-check mt-4">
-                <input class="form-check-input" type="checkbox" value="4" id="defaultCheck4">
-                <label class="form-check-label fw-normal" for="defaultCheck4">
+                <input class="form-check-input" type="checkbox" value="4" id="editCheck4">
+                <label class="form-check-label fw-normal" for="editCheck4">
                   Setting
                 </label>
               </div>
               <div class="form-check mt-4">
-                <input class="form-check-input" type="checkbox" value="5" id="defaultCheck5">
-                <label class="form-check-label fw-normal" for="defaultCheck5">
+                <input class="form-check-input" type="checkbox" value="5" id="editCheck5">
+                <label class="form-check-label fw-normal" for="editCheck5">
                   Task Menu
                 </label>
               </div>
@@ -264,40 +273,48 @@ current: admin
             </section>
             <section>
               <h5 class="mt-6 pt-6 border-top">Access Level</h5>
-              <button type="button" class="btn btn-warning w-100 border-dark p-4 d-flex justify-content-between align-items-center">
+              <!-- Access Level 下方可以使用 select 來做 -->
+              <select class="form-select p-3 border-dark">
+                <option class="text-info">-Choose access level-</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+              <!-- <button type="button" class="btn btn-warning w-100 border-dark p-4 d-flex justify-content-between align-items-center">
                     <h6 class="text-info">-Choose access level-</h6>
                     <span class="material-icons">expand_more</span>
-              </button>
+              </button> -->
             </section>
             <section>
               <h5 class="mt-6 pt-6 border-top">Custom Access</h5>
+              <!-- 下方 label input 因為 for id 與 Edit Admin 相同導致對應失效，可以換個名稱 -->
               <div class="form-check mt-4">
-                <input class="form-check-input" type="checkbox" value="1" id="defaultCheck1">
-                <label class="form-check-label fw-normal" for="defaultCheck1">
+                <input class="form-check-input" type="checkbox" value="1" id="newCheck1">
+                <label class="form-check-label fw-normal" for="newCheck1">
                   Lecture
                 </label>
               </div>
               <div class="form-check mt-4">
-                <input class="form-check-input" type="checkbox" value="2" id="defaultCheck2">
-                <label class="form-check-label fw-normal" for="defaultCheck2">
+                <input class="form-check-input" type="checkbox" value="2" id="newCheck2">
+                <label class="form-check-label fw-normal" for="newCheck2">
                   Coupon
                 </label>
               </div>
               <div class="form-check mt-4">
-                <input class="form-check-input" type="checkbox" value="3" id="defaultCheck3">
-                <label class="form-check-label fw-normal" for="defaultCheck3">
+                <input class="form-check-input" type="checkbox" value="3" id="newCheck3">
+                <label class="form-check-label fw-normal" for="newCheck3">
                   Message
                 </label>
               </div>
               <div class="form-check mt-4">
-                <input class="form-check-input" type="checkbox" value="4" id="defaultCheck4">
-                <label class="form-check-label fw-normal" for="defaultCheck4">
+                <input class="form-check-input" type="checkbox" value="4" id="newCheck4">
+                <label class="form-check-label fw-normal" for="newCheck4">
                   Setting
                 </label>
               </div>
               <div class="form-check mt-4">
-                <input class="form-check-input" type="checkbox" value="5" id="defaultCheck5">
-                <label class="form-check-label fw-normal" for="defaultCheck5">
+                <input class="form-check-input" type="checkbox" value="5" id="newCheck5">
+                <label class="form-check-label fw-normal" for="newCheck5">
                   Task Menu
                 </label>
               </div>
