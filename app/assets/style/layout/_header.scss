@@ -1,7 +1,16 @@
-
+.content {
+  width: calc( 100% - 27% - 40px );
+  position: absolute;
+  top: 0;
+  left: 25%;
+  height: auto;
+}
 .sidePanels {
-  width: 320px;
-
+  width: 23%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
   .logo {
     // 圖片取代文字
     background-image: url('./../images/logo-ANSWER.svg');
