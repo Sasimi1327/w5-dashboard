@@ -32,10 +32,10 @@ body {
 }
 
 .content {
-  width: calc( 100% - 20%);
+  width: calc( 100% - 23%);
   position: absolute;
   top: 0;
-  left: 20%;
+  left: 23%;
   height: auto;
 }
 
